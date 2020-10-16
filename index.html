@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="description" content="Covid-19 Safety Precautions - Rubric 4 Event Handlers">
+    <title>Covid-19 Safety Precautions</title>
+    <link rel="stylesheet" href="assets/styles/main.css">
+</head>
+<!-- Alerts thank you message on page load. -->
+<body onload = "alert('THANKS TO OUR DEVOTED WORKERS! Thank you for all that you\'re doing during these challenging times. We appreciate your dedication to the health and safety of our community.');">
+    <div id="banner">
+        <header>
+            <img id="covid" src="assets/images/cdc-w9KEokhajKw-unsplash.jpg" alt="Covid-19"> <!-- cspell: disable-line -->
+            <h1 id="banner-text">Covid-19 Safety Precautions</h1>
+        </header>
+    </div>
+    <main>
+        <section id="symptoms">
+            <article>
+                <h2 >How Many Covid-19 Symptoms Can You Name?</h2>
+                <p>A wide range of symptoms have been reported, ranging from mild symptoms to severe illnesses. Symptoms include:
+                <ul id="symptoms-list">
+                    <li>Fever or chills</li>
+                    <li>Cough</li>
+                    <li>Shortness of breath or difficulty breathing</li>
+                    <li>Fatigue</li>
+                    <li>Muscle or body aches</li>
+                    <li>Headache</li>
+                    <li>New loss of taste or smell</li>
+                    <li>Sore throat</li>
+                    <li>Congestion or runny nose</li>
+                    <li>Nausea or vomiting</li>
+                    <li>Diarrhea</li>
+                </ul>
+            </p>
+        </article>
+    </section>
+    <section id="reduce-spread">
+        <article>
+            <h2>What Can You Do To Reduce The Spread Of Covid-19?</h2>
+            <p>Think of all the advice you've been told, seen or personally thought of to help reduce the spread of Covid-19. What really works? Click on the text <em><strong>Reveal/Hide</strong></em> below to reveal ways to reduce the spread of Covid-19. Click again to hide the answers.
+            </p>
+            <a data-img="flyer" id="informational" href="#"><em><strong>Reveal/Hide</strong></em></a>
+                <img src="assets/images/covid-landscape-reducethespread-1024x576.png" alt="Informational flyer" id="informational-flyer" class="hide">
+        </article>
+    </section>
+</main>
+    <div id = "local-update">
+        <aside id="scroll-update">
+            <h2>Your Local Covid-19 Update San Antonio / Bexar County</h2>
+            <p>The city of San Antonio provides daily updates for it's constituents. The October 15, 2020 update is as follows:
+            </p>
+            <table>
+                <tr>
+                    <th>New Cases:</th>
+                    <td>224</td>
+                </tr>
+                <tr>
+                    <th>Total Cases:</th>
+                    <td>60,258</td>
+                </tr>
+                <tr>
+                    <th>New Deaths:</th>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <th>Total Deaths:</th>
+                    <td>1,209</td>
+                </tr>
+                <tr>
+                    <th>Hospitalized:</th>
+                    <td>203</td>
+                </tr>
+                <tr>
+                    <th>ICU Patients:</th>
+                    <td>76</td>
+                </tr>
+                <tr>
+                    <th>Patients On Ventilators:</th>
+                    <td>33</td>
+                </tr>
+            </table>
+            <p>Please visit their <a href="https://covid19.sanantonio.gov/Home" target="_blank">official website</a> for the most up to date reporting and resources available to you.
+            </p>
+        </aside>
+        <p id="insert-p"></p>
+    </div>
+<footer>
+    <a href="https://www.cdc.gov/coronavirus/2019-ncov/symptoms-testing/symptoms.html" onmouseover="">Watch For Symptoms</a>
+</footer>
+<script src="assets/scripts/main.js"></script>
+</body>
+</html>

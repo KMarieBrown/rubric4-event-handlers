@@ -1,0 +1,121 @@
+* {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+aside {
+	border: 2px solid rgb(148, 35, 35);
+	width: 400px;
+	height: 150px;
+	overflow: scroll;
+}
+
+body {
+	margin: 0 auto;
+	background-color: whitesmoke;
+}
+
+footer {
+	float: none;
+	background-color: rgba(29, 29, 29, 0.927);
+	height: 75px;
+	color: white;
+}
+
+main {
+	display: flex;
+}
+
+table,
+th,
+td {
+	border: 2px solid orange;
+	text-align: left;
+}
+
+#banner {
+	background-color: rgb(148, 35, 35);
+}
+
+#banner-text {
+	display: flex;
+	font-size: 65px;
+	padding: 36px 0px 16px 215px;
+	height: 90px;
+	margin: 0 auto;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	color: rgba(29, 29, 29, 0.927);
+}
+
+#covid {
+	width: 250px;
+	height: auto;
+	float: left;
+}
+
+#informational {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+}
+
+#local-update {
+	height: auto;
+	border: thin solid rgb(148, 35, 35);
+	padding: 10px 25px;
+	display: block;
+	float: none;
+	width: 100%;
+}
+
+#reduce-spread {
+	height: auto;
+	flex: 1;
+	float: left;
+	border: thin solid rgb(148, 35, 35);
+	padding: 10px 25px;
+}
+
+#reduce-spread a {
+	font-size: 36px;
+	color: rgb(148, 35, 35);
+	text-align: center;
+	text-decoration: none;
+}
+
+#symptoms {
+	height: auto;
+	flex: 2;
+	float: left;
+	border: thin solid rgb(148, 35, 35);
+	padding: 10px 25px;
+}
+
+.hide {
+	display: none;
+}
+
+@media (min-width: 1024px) and (max-width: 1220px) {
+	#banner-text {
+		font-size: 55px;
+		padding-left: 150px;
+	}
+}
+@media (min-width: 481px) and (max-width: 1023px) {
+	#banner-text {
+		font-size: 45px;
+		padding-left: 100px;
+	}
+}
+@media (min-width: 572px) and (max-width: 867px) {
+	#banner-text {
+		font-size: 35px;
+		padding-left: 100px;
+	}
+}
+@media (max-width: 571px) {
+	#banner-text {
+		font-size: 30px;
+		padding-left: 10px;
+	}
+}
