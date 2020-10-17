@@ -5,7 +5,7 @@
 aside {
   border: 1px solid #942323;
   width: auto;
-  height: 200px;
+  height: 300px;
   overflow: scroll;
 }
 
@@ -17,7 +17,7 @@ body {
 footer {
   float: none;
   background-color: rgba(29, 29, 29, 0.927);
-  height: 350px;
+  height: auto;
   color: white;
   padding: 10px 25px;
 }
@@ -146,6 +146,13 @@ td {
     font-size: 45px;
     padding-left: 100px;
   }
+  #informational {
+    text-align: center;
+    width: auto;
+  }
+  #informational-flyer img {
+    width: 200px;
+  }
 }
 
 @media (min-width: 572px) and (max-width: 867px) {
@@ -159,6 +166,12 @@ td {
   #banner-text {
     font-size: 30px;
     padding-left: 10px;
+  }
+  #reduce-spread a {
+    font-size: 15px;
+  }
+  #informational-flyer img {
+    width: 200px;
   }
 }
 /*# sourceMappingURL=main.css.map */
