@@ -27,10 +27,10 @@ informational.addEventListener("click", function() {
 );
 
 // Attaches a scroll event to the aside.
-document.getElementById("scroll-update").addEventListener("scroll", scrollFunction);
+document.getElementById("scroll-abuse").addEventListener("scroll", scrollFunction);
 
 function scrollFunction() {
-  document.getElementById("insert-p").innerHTML = "If you need help leaving an abusive partner safely please call the SAPD non-emergency number at 210.207.7273, and the advocates with the Crisis Response Teams can help you make a plan.";
+  document.getElementById("insert-p").innerHTML = "<em><strong>If you need help leaving an abusive partner safely please call the SAPD non-emergency number at 210.207.7273, and the advocates with the Crisis Response Teams can help you make a plan.</em></strong>";
 }
 
 // Prompts confirmation message before user leaves the page.
